@@ -1,6 +1,6 @@
-
 body {
     font-family: 'Raleway', sans-serif;
+    min-width: 1040px;
 }
 
 #englobador {
@@ -185,21 +185,11 @@ hr {
     text-align: right;
 }
 
-.icono-contacto, .icono-portfolio {
+.icono-contacto {
     border-radius: 5px;
     width: 25%;
     height: 25%;
     transition: 0.25s all ease;
-}
-
-.icono-portfolio:hover {
-    background-color: burlywood;
-    cursor: pointer;
-}
-
-.iconos-portfolio {
-    flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .divisor-fuerte {
