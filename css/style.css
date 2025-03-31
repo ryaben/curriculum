@@ -19,11 +19,11 @@ body {
 #lateral, #lateral-inferior {
     border-right-style: dashed;
     border-right-width: 4px;
-    border-color: dimgray;
+    border-color: #00a79d;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
     margin-bottom: 2.5%;
-    background-color:linen;
+    background-color:#ebfffb;
     text-align: center;
     padding-bottom: 10px;
 }
@@ -154,6 +154,7 @@ hr {
 
 .instituciones-academicas, .instituciones-laborales {
     justify-content: flex-start;
+    align-items: center;
 }
 
 .link-referencia {
@@ -175,6 +176,10 @@ hr {
     margin-bottom: 15px;
     width: 85px;
     height: 85px;
+}
+
+.underlined {
+    text-decoration: underline;
 }
 
 #nombre-profesion, #englobador-datos {
