@@ -182,6 +182,10 @@ hr {
     text-decoration: underline;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 #nombre-profesion, #englobador-datos {
     justify-content: space-between;
 }
@@ -206,4 +210,109 @@ hr {
     border-style: ridge;
     border-width: 2px;
     margin-bottom: 0px;
+}
+
+.grilla-stacks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2px;
+    margin-bottom: 10px;
+}
+
+.stack {
+    position: relative;
+    padding-left: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.stack::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.stack.vue::before {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/2367px-Vue.js_Logo_2.svg.png");
+}
+.stack.jquery::before {
+    background-image: url("https://cdn.worldvectorlogo.com/logos/jquery-4.svg");
+}
+.stack.cobalt::before {
+    background-image: url("https://developers.google.com/static/youtube/cobalt/images/cobalt-logo.png");
+}
+.stack.vanilla::before {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDPnsRI5evujvkbEmXUL80HD5FkPWco_JsXw&s");
+}
+.stack.typescript::before {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png")
+}
+.stack.html::before {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png");
+}
+.stack.css::before {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png");
+}
+.stack.scss::before {
+    background-image: url("https://sass-lang.com/assets/img/styleguide/seal-color.png");
+}
+.stack.tailwind::before {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2560px-Tailwind_CSS_Logo.svg.png");
+}
+.stack.bootstrap::before {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png");
+}
+.stack.nodejs::before {
+    background-image: url("https://static-00.iconduck.com/assets.00/node-js-icon-1817x2048-g8tzf91e.png");
+}
+.stack.express::before {
+    background-image: url("https://img.icons8.com/color/512/express-js.png");
+}
+.stack.nuxt::before {
+    background-image: url("https://www.svgrepo.com/show/373940/nuxt.svg");
+}
+.stack.php::before {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/2560px-PHP-logo.svg.png");
+}
+.stack.ejs::before {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAzFBMVEX////9+PrVmq24THDgtMKlAEShADrcqru0RWm7WHj68PTw2ODy3uXowM/oytPt0tz67/TVn7CmAEapGlCwN2CuMFzOiJ7HcpDLepjCY4SjAD6uN1usLlSnIUjXrbHz+uXp9dXf8cHFq4qzlmKoNUuuvlW31WnC24HN4prY6rPUs6u/aH71+OvF1oy0ymWzyWKwx1qtxVOxjWDLtpjIh5bZ5LW7z3PR3qT09+js8drGf5Tf6MGfADPRkqbl1Muzt2C7u3SrelC+f3y1emqR4ENKAAABJUlEQVR4Ab3RRWLDMBAF0B8wsxRmZssKG4v3P1PBVcrtrn0bMcwM/lwBPyuWfl4tS7Ly86Wq9tNJ3TAtw3aeOq7+xMV7HqGUEg1eJVet4Z1yvdFokprSqqrtTrcrkV4fb/qD4YiMu5PpbL5YDldk3d9s8oXNwGcB3+7InhyQc6qXnx9PnDP/2D9QS/bE113x8wUP+DkE0CwVP4c64IxHea+ytiSqNeuNOLbFYsJZcMpPkhhFiUhSS25RB7koYE+/4QPoaQY4uazVFEf9gJ38s9930jIu0rrobE7cx5Ny6kAw0hqEkAURgCzVw77IV/r266vrOYCYhOwURVG/HzaJA8GV1Ju5UaYVLLbC8K2SdYne7kjVwOb8IgHerTa1u3sbvwjxXx4BjGYhatz+rQoAAAAASUVORK5CYII=");
+}
+.stack.firebase::before {
+    background-image: url("https://cdn.prod.website-files.com/6047a9e35e5dc54ac86ddd90/63018721094449d9901f5875_cff297d7.png");
+}
+.stack.sql::before {
+    background-image: url("https://cdn-icons-png.flaticon.com/512/10260/10260914.png");
+}
+.stack.mysql::before {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFPLXqRyw5PEl4ETnuzYuP5XhUI51sUdQzcg&s");
+}
+.stack.vercel::before {
+    background-image: url("https://www.svgrepo.com/show/327408/logo-vercel.svg");
+}
+.stack.heroku::before {
+    background-image: url("https://images.icon-icons.com/2699/PNG/512/heroku_logo_icon_168126.png");
+}
+.stack.git::before {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGp2RKrzqJF2Cu3dxnk2RGK_F7SSloJG-Wyw&s");
+}
+.stack.github::before {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png");
+}
+.stack.gitlab::before {
+    background-image: url("https://cdn.worldvectorlogo.com/logos/gitlab-3.svg");
+}
+.stack.postman::before {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmtT98yfidU8hGRVTgArB2jtr4hxWjvFYr4g&s");
+}
+.stack.ewizard::before {
+    background-image: url("https://media.licdn.com/dms/image/v2/C4E0BAQG0LROWcbBwow/company-logo_200_200/company-logo_200_200/0/1675867464327/ewizard_logo?e=2147483647&v=beta&t=1XIN4TYPCtCThqKD5gSNXuYWP4x6i_PcBOF8lg7SCkw");
+}
+.stack.wordpress::before {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Wordpress-Logo.svg/2048px-Wordpress-Logo.svg.png");
 }
