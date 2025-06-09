@@ -253,6 +253,12 @@ hr {
 .stack.typescript::before {
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png")
 }
+.stack.vb6::before {
+    background-image: url("https://i.blogs.es/533f76/screenshot11/1366_2000.jpeg");
+}
+.stack.vbnet::before {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPRDxAu6-VkVOewGOLTZBpIisWAtiweYBZdA&s");
+}
 .stack.html::before {
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png");
 }
