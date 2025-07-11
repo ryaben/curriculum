@@ -275,7 +275,7 @@ hr {
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png");
 }
 .stack.nodejs::before {
-    background-image: url("https://static-00.iconduck.com/assets.00/node-js-icon-1817x2048-g8tzf91e.png");
+    background-image: url("https://www.svgrepo.com/show/354119/nodejs-icon.svg");
 }
 .stack.express::before {
     background-image: url("https://img.icons8.com/color/512/express-js.png");
